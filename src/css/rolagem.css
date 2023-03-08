@@ -1,0 +1,13 @@
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+ *::-webkit-scrollbar-track {
+    background: var( --cor-texto);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-gradient1);
+    border-radius: 20px;
+    border: 2px solid var(--cor-gradient2);
+}

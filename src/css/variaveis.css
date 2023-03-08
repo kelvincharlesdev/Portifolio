@@ -1,0 +1,7 @@
+:root{
+    --cor-gradient1: hsla(0, 0%, 8%, 0.932);
+    --cor-gradient2:hsla(0, 0%, 2%, 0.933); 
+    --cor-texto: hsl(0, 0%, 41%);
+    --cor-hover: hsl(209, 100%, 29%);
+    --cor-box-shadow: 0px 1px 22px #00000077;
+}

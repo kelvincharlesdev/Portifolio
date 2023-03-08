@@ -1,0 +1,48 @@
+@media(max-width: 980px){
+    main .sobre .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .sobre .container .foto-perfil{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .sobre .container .foto-perfil img{
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 650px){
+    main .sobre .container .foto-perfil img{
+        max-width: 70%;
+    }
+    main .skills .container .skills-card .skill{
+        padding: 6rem 3rem ;
+    }
+
+    footer .nav-footer .container{
+        margin-top: 40rem;
+    }
+}
+
+@media(max-width: 500px){
+    footer .nav-footer .container ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 7rem;
+        margin: 5rem 2rem;
+    }
+
+}
+
+
+@media(max-width: 350){
+    main .intro .container .titulo h1{
+       font-size: 4rem;
+
+    }
+}
