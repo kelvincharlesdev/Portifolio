@@ -57,7 +57,8 @@ controls.forEach((control) => {
             // scrollInToView usei para centralizar o elemento selecionado 
         skills[currentSkill].scrollIntoView({
             inline:"center",
-            behavior:"smooth"
+            behavior:"smooth",
+            block: "nearest"
             
         });
 
